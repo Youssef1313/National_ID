@@ -2,7 +2,6 @@
 {
     struct CitizenData
     {
-        // 299 03 11    02 007 9 9
         public int YearOfBirth { get; }
         public byte MonthOfBirth { get; }
         public byte DayOfBirth { get; }

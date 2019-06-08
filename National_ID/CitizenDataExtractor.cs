@@ -6,8 +6,6 @@ namespace National_ID
 {
     class CitizenDataExtractor
     {
-        // 299 03 11 02 007 9 9
-        // 012 34 56 78 9AB C D
         public static CitizenData GetCitizenData(string id)
         {
             if (!Regex.IsMatch(id, "^(\\d){14}$"))
